@@ -6,3 +6,11 @@ Macro-Event Burst Pooling for Hierarchical Sparse Event-Driven State Space Model
 
 
 <img width="473" height="419" alt="image" src="https://github.com/user-attachments/assets/0da33e58-bfe0-4ba9-840d-772737d64e30" />
+
+<img width="941" height="248" alt="image" src="https://github.com/user-attachments/assets/fbe3e839-372e-4625-8480-96639f1180ee" />
+
+<img width="707" height="345" alt="image" src="https://github.com/user-attachments/assets/7c87db41-15bf-4a49-8b95-64e68823fecf" />
+
+<img width="749" height="511" alt="image" src="https://github.com/user-attachments/assets/c2baf546-a902-40f4-82d9-322fa16ecdd5" />
+
+
