@@ -1,2 +1,7 @@
+Spiking Neural Networks (SNNs) produce sparse binary spike trains at micro temporal resolution, while State Space Models (SSMs) operate on continuous or discretized dynamics over macro sequences. Existing SNN-SSM hybrids either process all timesteps densely (SpikingSSM), feed native event streams directly into SSMs (Event-SSM), or use spatial pooling to bridge the two (FLAMES). None exploit the temporal structure of SNN spike bursts to create coarser-grained macro-events that can drastically reduce downstream SSM computation.
+We propose Macro-Event Burst Pooling (MEBP), a temporal aggregation mechanism that detects periods of elevated spike activity (bursts) in SNN layer outputs and emits a single macro-event per burst. These macro-events replace the fine-grained spike train as the input to a deep Event-Driven SSM (EDSSM) stack, achieving a hierarchical sparse pipeline: micro-spike sparsity from the SNN, macro-event sparsity from burst pooling, and O(K) propagation in the SSM where K << L is the number of macro-events over L timesteps.
+We formalize the burst detection rule, analyze the expected compression ratio, and prove that MEBP preserves event timing information up to a bounded error. On neuromorphic benchmarks (DVS128 Gesture, N-Caltech101), MEBP reduces SSM updates by 5-20x while maintaining competitive accuracy, demonstrating that temporal burst structure is a useful and previously unexploited axis for sparsity in event-driven SSMs.
 # MEBP
 Macro-Event Burst Pooling for Hierarchical Sparse Event-Driven State Space Models
+
+
