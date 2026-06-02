@@ -5,3 +5,4 @@ We formalize the burst detection rule, analyze the expected compression ratio, a
 Macro-Event Burst Pooling for Hierarchical Sparse Event-Driven State Space Models
 
 
+<img width="473" height="419" alt="image" src="https://github.com/user-attachments/assets/0da33e58-bfe0-4ba9-840d-772737d64e30" />
